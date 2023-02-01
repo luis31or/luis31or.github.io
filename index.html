@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="img\cv.ico">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<!--MENU ENCABEZADO-->
+	<div class="contenedor-header">
+		<header>
+			<div class="logo">
+				<a href="#">Luis</a>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+					<li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+					<li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+
+	<!--SECCION INICIO-->
+	<section id="inicio" class="inicio">
+		<div class="contenido-banner">
+			<div class="contenedor-img">
+				<img src="img/yo.jpg" alt="imagene Luis Orlando es Analista de sistemas y Diseñador grafico">
+			</div>
+			<h1>Luis Orlando</h1>
+			<h2>Analista de sistemas y Diseñador grafico</h2>
+			<div class="redes">
+				<a href="#"><i class="fa-brands fa-facebook"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+				<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+				<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+		</div>
+	</section>
+	
+	<!--SECCION SOBRE MI-->
+	<section id="sobremi" class="sobremi">
+		<div class="contenido-seccion">
+			<h2>Sobre MI</h2>
+			<p><span>Hola soy Luis ORLANDO</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus iusto ex aliquid aut, ipsum nisi soluta minima voluptates labore possimus similique! Non aut saepe eveniet. Saepe totam expedita nesciunt?</p>
+			<div class="fila">
+				<!--datos personales-->
+				<div class="col">
+					<h3>Datos personales</h3>
+					<ul>
+						<li>
+							<strong>Cumpleaños</strong>
+							19-02-1985
+						</li>
+						<li>
+							<strong>Teléfono</strong>
+							011-55556666
+						</li>
+						<li>
+							<strong>Email</strong>
+							lO@ejemplo.com
+						</li>
+						<li>
+							<strong>WebSite</strong>
+							www.ejemplo.com
+						</li>
+						<li>
+							<strong>Dirección</strong>
+							Av. Siempre Viva 123, Bs As, Argentina
+						</li>
+						<li>
+							<strong>Cargo</strong>
+							<span>Jefe de mi mismo</span>
+						</li>
+					</ul>
+					
+				</div>
+				<!--intereses-->
+				<div class="col">
+					<h3>Interes</h3>
+					<div class="contenedor-intereses">
+						<div class="interes">
+						<i class="fa-solid fa-futbol"></i>
+						<span>DEPORTES</span>
+						</div>
+						<div class="interes">
+						<i class="fa-solid fa-headphones-simple"></i>
+						<span>MUSICA</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-solid fa-caravan"></i>
+						<span>RUTEAR</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-brands fa-windows"></i>
+						<span>MICROSOFT</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-solid fa-person-hiking"></i>
+						<span>TREKKING</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-solid fa-book"></i>
+						<span>NOVELAS</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-solid fa-car-side"></i>
+						<span>AUTOS</span>
+					    </div>
+					    <div class="interes">
+						<i class="fa-solid fa-camera-retro"></i>
+						<span>FOTOGRAFÍA</span>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<button>
+				Descargar CV <i class="fa-solid fa-circle-down"></i>
+				<span class="overlay"></span>
+			</button>
+		</div>
+	</section>
+
+	<!--SECCION skills-->
+	<section class="skills" id="skills">
+		<div class="contenido-seccion">
+			<h2>Habilidades</h2>
+			<div class="fila">
+				<!--tecnicas de skills-->
+				<div class="col">
+					<h3>Habilidades Tecnicas</h3>
+					<div class="skill">
+						<span>HTML Y CSS</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>10%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>PHOTOSHOP</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>	
+						</div>
+					</div>
+					<div class="skill">
+						<span>JAVA</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>20%</span>
+							</div>	
+						</div>
+					</div>
+					<div class="skill">
+						<span>ILLUSTRATOR</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>	
+						</div>
+					</div>
+					<div class="skill">
+						<span>JAVASCRIPT</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>10%</span>
+							</div>	
+						</div>
+					</div>
+					<div class="skill">
+						<span>AFTER EFFECTS</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>80%</span>
+							</div>	
+						</div>
+					</div>
+				</div>
+
+				<!--skills profesionales-->
+				<div class="col">
+					<h3>Habilidades Profesionales</h3>
+					<div class="skill">
+						<span>COMUNICACIÓN</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>
+						</div>
+					<div class="skill">
+						<span>Trabajo en equipo</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Creatividad</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>
+						</div>	
+					</div>
+					<div class="skill">
+					<span>Dedicación</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>99%</span>
+							</div>
+						</div>	
+					</div>
+					<div class="skill">
+						<span>Proyect Management</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>80%</span>
+							</div>
+						</div>	
+					</div>
+					<div class="skill">
+						<span>Proactivo</span>
+						<div class="barra-skill">
+							<div class="progreso">
+								<span>90%</span>
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SECCION CURRICULUM-->
+	<section id="curriculum" class="curriculum">
+		<div class="contenido seccion">
+			<h2>Curriculum</h2>
+			<div class="fila">
+				<div class="col izquierda">
+					<h3>Educacion</h3>
+					<div class="item izq">
+						<h4>Diseño Grafico</h4>
+						<span class="casa">Universidad de Buesno Aires</span>
+						<span class="fecha">2003-2012</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Analista de Sistemas</h4>
+						<span class="casa">ISFDYT N°44</span>
+						<span class="fecha">2019-2022</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>
+					<div class="item izq">
+						<h4>Curso de Capacitación</h4>
+						<span class="casa">CFP 404</span>
+						<span class="fecha">2017-2022</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectori">
+							<div class="circuloi"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col derecha">
+					<h3>Experiencia de trabajo</h3>
+					<div class="item der">
+						<h4>Diseñador freelancer</h4>
+						<span class="casa">Empresa y PyMES</span>
+						<span class="fecha">2008-2022</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectord">
+							<div class="circulod"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Profesor de instituciones estatales</h4>
+						<span class="casa">DGEyC</span>
+						<span class="fecha">2015-2022</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectord">
+							<div class="circulod"></div>
+						</div>
+					</div>
+					<div class="item der">
+						<h4>Experiencias anteriores</h4>
+						<span class="casa">Editorial Pirson</span>
+						<span class="fecha">2013-2018</span>
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, labore expedita, cum illo iure, excepturi voluptate minima nulla eligendi, magnam. Fuga reiciendis repellat quia amet, eius iure quidem, doloremque!</p>
+						<div class="conectord">
+							<div class="circulod"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--SECCION PORTFOLIO-->
+	<section id="portfolio" class="portfolio">
+		<div class="contenido-seccion">
+			<h2>PORTFOLIO</h2>
+			<div class="galeria">
+				<div class="proyecto">
+					<img src="img/img_1.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/img_2.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/img_3.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/img_4.jpeg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/img_5.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/img_6.jpg" alt="">
+					<div class="overlay">
+						<h3>Diseño Creativo</h3>
+						<p>Fotografía</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!--seccion CONTACTO-->
+	<section id="contacto" class="contacto">
+		<div class="contenido-seccion">
+			<h2>CONTACTO</h2>
+			<div class="fila">
+				<!--formulario-->
+				<div class="col">
+					<input type="text" placeholder="Tú nombre">
+					<input type="text" placeholder="Número de telefono">
+					<input type="text" placeholder="Dirección de correo">
+					<input type="text" placeholder="Tema">
+					<textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+					<button>
+						Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+						<span class="overlay"></span>
+					</button>
+				</div>
+				<!--mapa-->
+				<div class="col">
+					<img src="img/ubicacion.jpg" alt="">
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								Av.Siempre Viva 123,Bs. As.
+							<li>
+								<i class="fa-solid fa-tablet-screen-button"></i>
+								Celular: 011-55556666
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								Email: lO@ejemplo.com
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- footer-->
+	<footer>
+		<a href="#inicio" class="arriba">
+		<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+			<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+			<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
